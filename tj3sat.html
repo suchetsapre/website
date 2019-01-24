@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <title>TJ3Sat - A CubeSat Experimental Satellite built by TJHSST students</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A CubeSat experimental satellite built by TJHSST students for educational outreach. TJ3Sat will be the first satellite in history built by high school students when it launches from NASA's Wallops Flight Facility on November 19th, 2013.">
+    <meta name="author" content="">
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/tj.css" rel="stylesheet">
+    <!--[if lt IE 7]>
+            <link href="css/font-awesome-ie7.css" type="text/css" rel="stylesheet">
+        <![endif]-->
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar-wrapper">
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <!-- Responsive navbar -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+</a>
+            <h1 class="brand" style="font-weight:bold;"><a href="index.html">Back to TJ REVERB</a></h1>
+            <!-- navigation -->
+            <nav class="pull-right nav-collapse collapse">
+              <ul id="menu-main" class="nav">
+                <!--redundant link
+                <li><a title="current_mission" href="index.html">Current Mission</a></li>
+                -->
+                <li><a title="mission" href="#mission">Mission</a></li>
+                <li><a title="payload" href="#payload">Payload</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class='disabled'><a href="#">Hardware</a></li>
+                    <li class='disabled'><a href="#">Software</a></li>
+                    <li class='disabled'><a href="#">Ardusat</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="documentation/srr.pdf" target="_blank">Requirement Review</a></li>
+                    <li><a href="documentation/pdr.pdf" target="_blank">Preliminary Design Review</a></li>
+                    <li><a href="documentation/cdr.pdf" target="_blank">Critical Design Review</a></li>
+                    <li class='disabled'><a href="#">Benchtop Design Review</a></li>
+                    <li><a href="documentation/mrr.pdf" target="_blank">Mission Readiness Review</a></li>
+                    <li class="divider"></li>
+                    <li class='disabled'><a href="#">Data Budget</a></li>
+                    <li class='disabled'><a href="#">Link Budget</a></li>
+                    <li class='disabled'><a href="#">Mass Budget</a></li>
+                    <li class='disabled'><a href="#">Power Budget</a></li>
+                  </ul>
+                </li>
+                <!-- <li><a title="gallery" href="#gallery">Gallery</a></li> -->
+                <li><a title="contact" href="#contact">Contact</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header area -->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="active item">
+          <script data-pagespeed-no-defer>
+            (function() {
+              var g = this;
+
+              function h(b, d) {
+                var a = b.split("."),
+                  c = g;
+                a[0] in c || !c.execScript || c.execScript("var " + a[0]);
+                for (var e; a.length && (e = a.shift());) a.length || void 0 === d ? c[e] ? c = c[e] : c = c[e] = {} : c[e] = d
+              };
+
+              function l(b) {
+                var d = b.length;
+                if (0 < d) {
+                  for (var a = Array(d), c = 0; c < d; c++) a[c] = b[c];
+                  return a
+                }
+                return []
+              };
+
+              function m(b) {
+                var d = window;
+                if (d.addEventListener) d.addEventListener("load", b, !1);
+                else if (d.attachEvent) d.attachEvent("onload", b);
+                else {
+                  var a = d.onload;
+                  d.onload = function() {
+                    b.call(this);
+                    a && a.call(this)
+                  }
+                }
+              };
+              var n;
+
+              function p(b, d, a, c, e) {
+                this.h = b;
+                this.j = d;
+                this.l = a;
+                this.f = e;
+                this.g = {
+                  height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
+                  width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                };
+                this.i = c;
+                this.b = {};
+                this.a = [];
+                this.c = {}
+              }
+
+              function q(b, d) {
+                var a, c, e = d.getAttribute("data-pagespeed-url-hash");
+                if (a = e && !(e in b.c))
+                  if (0 >= d.offsetWidth && 0 >= d.offsetHeight) a = !1;
+                  else {
+                    c = d.getBoundingClientRect();
+                    var f = document.body;
+                    a = c.top + ("pageYOffset" in window ? window.pageYOffset : (document.documentElement || f.parentNode || f).scrollTop);
+                    c = c.left + ("pageXOffset" in window ? window.pageXOffset : (document.documentElement || f.parentNode || f).scrollLeft);
+                    f = a.toString() + "," + c;
+                    b.b.hasOwnProperty(f) ? a = !1 : (b.b[f] = !0, a = a <= b.g.height && c <= b.g.width)
+                  }
+                a && (b.a.push(e), b.c[e] = !0)
+              }
+              p.prototype.checkImageForCriticality = function(b) {
+                b.getBoundingClientRect && q(this, b)
+              };
+              h("pagespeed.CriticalImages.checkImageForCriticality", function(b) {
+                n.checkImageForCriticality(b)
+              });
+              h("pagespeed.CriticalImages.checkCriticalImages", function() {
+                r(n)
+              });
+
+              function r(b) {
+                b.b = {};
+                for (var d = ["IMG", "INPUT"], a = [], c = 0; c < d.length; ++c) a = a.concat(l(document.getElementsByTagName(d[c])));
+                if (0 != a.length && a[0].getBoundingClientRect) {
+                  for (c = 0; d = a[c]; ++c) q(b, d);
+                  a = "oh=" + b.l;
+                  b.f && (a += "&n=" + b.f);
+                  if (d = 0 != b.a.length)
+                    for (a += "&ci=" + encodeURIComponent(b.a[0]), c = 1; c < b.a.length; ++c) {
+                      var e = "," + encodeURIComponent(b.a[c]);
+                      131072 >= a.length + e.length && (a += e)
+                    }
+                  b.i && (e = "&rd=" + encodeURIComponent(JSON.stringify(t())), 131072 >= a.length + e.length && (a += e), d = !0);
+                  u = a;
+                  if (d) {
+                    c = b.h;
+                    b = b.j;
+                    var f;
+                    if (window.XMLHttpRequest) f = new XMLHttpRequest;
+                    else if (window.ActiveXObject) try {
+                      f = new ActiveXObject("Msxml2.XMLHTTP")
+                    }
+                    catch (k) {
+                      try {
+                        f = new ActiveXObject("Microsoft.XMLHTTP")
+                      }
+                      catch (v) {}
+                    }
+                    f && (f.open("POST", c + (-1 == c.indexOf("?") ? "?" : "&") + "url=" + encodeURIComponent(b)), f.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), f.send(a))
+                  }
+                }
+              }
+
+              function t() {
+                var b = {},
+                  d = document.getElementsByTagName("IMG");
+                if (0 == d.length) return {};
+                var a = d[0];
+                if (!("naturalWidth" in a && "naturalHeight" in a)) return {};
+                for (var c = 0; a = d[c]; ++c) {
+                  var e = a.getAttribute("data-pagespeed-url-hash");
+                  e && (!(e in b) && 0 < a.width && 0 < a.height && 0 < a.naturalWidth && 0 < a.naturalHeight || e in b && a.width >= b[e].o && a.height >= b[e].m) && (b[e] = {
+                    rw: a.width,
+                    rh: a.height,
+                    ow: a.naturalWidth,
+                    oh: a.naturalHeight
+                  })
+                }
+                return b
+              }
+              var u = "";
+              h("pagespeed.CriticalImages.getBeaconData", function() {
+                return u
+              });
+              h("pagespeed.CriticalImages.Run", function(b, d, a, c, e, f) {
+                var k = new p(b, d, a, e, f);
+                n = k;
+                c && m(function() {
+                  window.setTimeout(function() {
+                    r(k)
+                  }, 0)
+                })
+              });
+            })();
+            pagespeed.CriticalImages.Run('/ngx_pagespeed_beacon', 'https://www.tjhsst.edu/students/activities/tj3sat/', 'iZqyQbUSJU', true, false, 'Wy4mLf7Vs_M');
+          </script><img src="img/tjsat/bg-0.jpg" alt="" data-pagespeed-url-hash="1464793737" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+          <div class="container  ">
+            <div class="carousel-caption" style="color:white; ">
+              CubeSat Experimental Satellite for Educational Outreach
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- spacer section -->
+    <section class="spacer bg3">
+      <div class="container">
+        <div class="row">
+          <div class="span12 aligncenter flyLeft">
+            <blockquote class="medium">
+              "It was one of those really cool things where you got an insider's look into the industry...I've been given a leg up..." – Alex McGlothlin, Former Student Leader on TJ3SAT</blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end spacer section -->
+    <!-- section: mission -->
+    <section id="mission" class="section white">
+      <div class="container">
+        <!-- Two columns -->
+        <div class="row">
+          <div class="span4 animated-fast flyIn">
+            <div class="service-box">
+              <img style="margin-top:100px;" src="img/tjsat/TJ3Sat_Mission_Patch.png" alt="" data-pagespeed-url-hash="3109181797" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+            </div>
+          </div>
+          <div class="span8 animated flyIn">
+            <div class="service-box">
+              <div class="subHeader">Mission Overview</div>
+              <p style="font-size: 18px">
+                TJ CubeSat is a joint project between the Thomas Jefferson High School for Science and Technology and industry partners to design and build a CubeSat to increase interest in aerospace technology, as part of NASA's Educational Launch of NanoSatellites
+                (ELaNa) program. TJ
+                <sup>3</sup>Sat's primary mission is to provide educational resources to other K-12 education institutions to foster interest in aerospace through the successful design and flight of a CubeSat. Our mission will be successful if it provides
+                resources to other high schools so that they may also attempt to design and construct satellites, building upon what we have learned. <br/> <br/> TJ
+                <sup>3</sup>Sat became the first satellite in history built by high school students when it launched from NASA's Wallops Flight Facility on <strong>November 19th, 2013</strong> on an <a style="text-decoration:underline;" target="_blank"
+                  href="http://www.orbital.com/NewsInfo/release.asp?prid=1874">Orbital Minotaur I rocket </a> - the culmination of 7 years of work by more than 50 students. <br/> <br/>
+                <p style="font-size: 18px">TJ3Sat has launched and is currently in orbit!</p>
+                <p>You can track TJ3Sat's orbit:</p>
+                <a href="http://www.n2yo.com/?s=99902" target="_blank" class="btn btn-success">Track TJ<sup>3</sup>Sat</a>
+              </p>
+              <p>Amateur Radio Licensees with basic equipment can make contact with TJ3Sat:</p>
+              <a href="TJ3Sat-General-Public-Instructions.pdf" target="_blank" class="btn btn-success">Download Instructions (PDF)</a>
+              <a href="https://docs.google.com/forms/d/15SpYMeZ7ww97owAQMyHjlF0zeNzkYay89e-xBLSrflI/edit?usp=drive_web" target="_blank" class="btn btn-success">Report Contact with Satellite</a>
+              </p>
+              <p>Please use the following audio files as reference for tracking our satellite:</p>
+              <a href="audio/cwBeacon.wav" target="_blank" class="btn btn-success">13.5s CW Beacon</a>
+              <a href="audio/cwMorse.wav" target="_blank" class="btn btn-success">Morse CW Callsign</a>
+              <a href="audio/packet.wav" target="_blank" class="btn btn-success">Sample Data Packet</a>
+              </p>
+              </p>
+              <p style="font-size: 18px">
+                Unfortunately, as of March 2014 we have not established successful communication with TJ3Sat. Thank you for your support, and we will update this page with any new developments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+        <!-- One columns -->
+        <div class="row">
+          <div class="span12">
+            <div class="service-box aligncenter">
+              <div class="subHeader" style="margin-bottom:10px;">Mission Specifications</div>
+            </div>
+          </div>
+        </div>
+        <!-- begin tables -->
+        <div class="row">
+          <div class="span6">
+            <div class="subHeader-small">Spacecraft Specifications</div>
+            <table class="table-striped table-bordered">
+              <tr>
+                <td>Launch Mass</td>
+                <td> 0.89 kg (2.19 lbs)</td>
+              </tr>
+              <tr>
+                <td>Spacecraft Dimensions</td>
+                <td>10 x 10 x 11 cm (3.9 x 3.9 x 4.5 in)</td>
+              </tr>
+              <tr>
+                <td>Solar Arrays</td>
+                <td>Body mounted solar cells, &lt; 3 W avg.</td>
+              </tr>
+              <tr>
+                <td>Stabilization</td>
+                <td>Uncontrolled</td>
+              </tr>
+              <tr>
+                <td>Uplink Frequency</td>
+                <td>145.980 MHz, 1200 bps AFSK</td>
+              </tr>
+              <tr>
+                <td>Downlink Frequency</td>
+                <td>437.320 MHz, 1200 bps AFSK</td>
+              </tr>
+              <tr>
+                <td>Transmitter Max Power</td>
+                <td>1 W</td>
+              </tr>
+              <tr>
+                <td>Mission Life</td>
+                <td>6 months (2-4 year orbit lifetime)</td>
+              </tr>
+              <tr>
+                <td>Orbit Parameters</td>
+                <td>500km, 40.5&deg; inclination</td>
+              </tr>
+            </table>
+          </div>
+          <div class="span6">
+            <div class="subHeader-small">Launch Specifications</div>
+            <table class="table-striped table-bordered">
+              <tr>
+                <td>Launch Vehicle</td>
+                <td> <a style="text-decoration:underline;" href="http://www.orbital.com/NewsInfo/release.asp?prid=1874">Minotaur I, Primary Payload: ORS-3</a> </td>
+              </tr>
+              <tr>
+                <td>Launch Site</td>
+                <td>NASA Wallops Flight Facility, Wallops Island, VA</td>
+              </tr>
+              <tr>
+                <td>Date</td>
+                <td>November 19th, 2013</td>
+              </tr>
+              <tr>
+                <td>Time</td>
+                <td>To be announced </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!--end of row -->
+        <!-- end tables -->
+        <div class="subHeader aligncenter">Key Mission Partners</div>
+        <!-- Three columns -->
+        <div class="row">
+          <div class="span4 animated-fast flyIn">
+            <div class="service-box aligncenter">
+              <img src="img/tjsat/tj_logo_blue.png" height=100 width=100 alt="" data-pagespeed-url-hash="966200223" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+              <h2 style=" color: #666666;font-size:18px;font-weight:bold; text-transform:uppercase;height:40px;padding-bottom:20px;">Thomas Jefferson High School for Science and Technology</h2>
+              <p style="font-size: 18px;text-align:left;">
+                Led by Energy Systems Lab Director Adam Kemp, TJ<sup>3</sup>Sat was designed, constructed, and tested by more than 50 dedicated TJHSST students over the course of 7 years.
+              </p>
+            </div>
+          </div>
+          <div class="span4 animated flyIn">
+            <div class="service-box aligncenter">
+              <img style="padding-top:50px;" src="img/tjsat/orblogo_tagline.gif" alt="" data-pagespeed-url-hash="3579730260" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+              <h2 style="color: #666666; font-weight:bold;font-size:20px; text-transform:uppercase;height:40px;padding-bottom:20px;">Orbital Sciences Corporation</h2>
+              <p style="font-size: 18px;text-align:left;">
+                Orbital provided funding for the purchase of satellite hardware, engineering consultation, and hardware/software testing facilities.
+              </p>
+            </div>
+          </div>
+          <div class="span4 animated-fast flyIn">
+            <div class="service-box aligncenter">
+              <img style="padding-top:30px;" src="img/tjsat/stensat_logo.jpg" alt="" data-pagespeed-url-hash="60078288" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+              <h2 style=" color: #666666; font-weight:bold;font-size:20px; text-transform:uppercase;height:40px; padding-bottom: 20px;">Stensat LLC</h2>
+              <p style="font-size: 18px;text-align:left;">
+                Stensat provided contributions to the design and construction of the radio and power handling hardware. Assisted with the schematic design and layout of the circuit boards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of container -->
+    </section>
+    <!-- end section: mission -->
+    <!-- spacer section -->
+    <section class="spacer bg3">
+      <div class="container">
+        <div class="row">
+          <div class="span12 aligncenter flyLeft">
+            <blockquote class="medium">
+              "We've taken this project from conception, to presenting it in front of NASA and other engineers to this point, where we are ready to fly." - Adam Kemp, Program Director, TJ<sup>3</sup>SAT, Faculty Sponsor .
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end spacer section -->
+    <!-- section: payload -->
+    <section id="payload" class="section white">
+      <div class="container">
+        <!-- Three columns -->
+        <div class="row">
+          <div class="span4 animated-fast flyIn">
+            <div class="service-box">
+              <img style="margin-top:20px;" src="img/tjsat/tj3sat.jpg" alt="" data-pagespeed-url-hash="2804134827" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+            </div>
+          </div>
+          <div class="span8 animated flyIn">
+            <div class="service-box">
+              <div class="subHeader">Payload</div>
+              <p style="font-size: 18px">
+                The primary payload of TJ3Sat helps accomplish our primary mission objective by giving students and other amateur radio users the opportunity to send and receive data from the satellite. Onboard the satellite a Text Speak module is used to convert text
+                messages into an analog voice signal. Students and other users from around the world can submit text strings to be uploaded to the TJ3Sat website. Approved text strings will be transmitted to the satellite and the resulting voice interpretation
+                will be relayed back to Earth over an amateur radio frequency using the onboard Stensat radio. In addition to the voice signals, properly outfitted amateur radio stations can receive state of health telemetry from the satellite. These
+                data exchanges are available to the public and will become the main catalyst for education outreach.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="span12">
+              <img src="img/tjsat/techspecs.jpg" alt="" data-pagespeed-url-hash="3835270162" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- end section: payload -->
+    <!-- spacer section -->
+    <section class="spacer bg3">
+      <div class="container">
+        <div class="row">
+          <div class="span12 aligncenter flyLeft">
+            <blockquote class="medium">
+              "We're doing something that a superpower, the Soviet Union, first accomplished," - Alishan Hassan, Former TJ3Sat Student Leader
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end spacer section -->
+    <!-- section: contact -->
+    <section id="contact" class="section white">
+      <div class="container">
+        <div class="subHeader aligncenter">Contact Information</div>
+        <div class="row">
+          <div class="span4  ">
+            <div class="service-box">
+              <address><strong>Rohan Punnoose</strong><br/>
+<i>Systems Engineer</i><br/>
+Thomas Jefferson High School for Science &amp; Technology<br/>
+6560 Braddock Road<br/>
+Alexandria, VA 22312<br/>
+</address><br/><br/>
+              <img src="img/tjsat/c1.jpg" alt="" data-pagespeed-url-hash="4185683452" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              <br/>
+            </div>
+          </div>
+          <div class="span4  ">
+            <div class="service-box">
+              <address><strong>Adam Kemp</strong><br>
+<i>Energy System Lab Director/TJ CubeSat Program</i><br/>
+Thomas Jefferson High School for Science &amp; Technology<br/>
+6560 Braddock Road<br/>
+Alexandria, VA 22312<br/>
+703.750.8300<br/>
+<br> </address>
+              <img src="img/tjsat/c2.jpg" alt="" data-pagespeed-url-hash="185216077" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              <br/>
+            </div>
+          </div>
+          <div class="span4 ">
+            <div class="service-box">
+              <address><strong>Carlos Niederstrasser</strong><br>
+<i>Strategy and Special Initiatives</i><br/>
+Orbital Sciences Corporation<br/>
+45101 Warp Drive<br/>
+Dulles, VA 20166<br/>
+<br/> </address><br/><br/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span8 offset2">
+            <p class="copyright">
+              &copy; 2013 Thomas Jefferson High School for Science and Technology. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function(i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-45404813-1', 'tjhsst.edu');
+        ga('send', 'pageview');
+      </script>
+      <!-- ./container -->
+    </footer>
+    <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- nav -->
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <!-- localScroll -->
+    <script src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.js"></script>
+    <!-- prettyPhoto -->
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <!-- Works scripts -->
+    <script src="js/isotope.js"></script>
+    <!-- flexslider -->
+    <script src="js/jquery.flexslider.js"></script>
+    <!-- inview -->
+    <script src="js/inview.js"></script>
+    <!-- animation -->
+    <script src="js/animate.js"></script>
+    <!-- twitter -->
+    <script src="js/jquery.tweet.js"></script>
+    <!-- contact form -->
+    <script src="js/validate.js"></script>
+    <!-- custom functions -->
+    <script src="js/custom.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,128 @@
+ 
+#header-wrapper {
+	width: 100%;
+	min-height: 600px;
+	margin-top: -60px;
+	padding-top:160px;
+	text-align:center;
+	background: #444 url(../img/bg/bg-0.jpg) no-repeat center center fixed;
+}
+.navbar .brand   {
+   padding-top:8px;
+}
+
+.navbar .brand a {
+  font-weight:700;
+  padding-top:200px;
+  font-size:24px;
+}
+
+ul#menu-main > li > a {
+	font-size: 16px;
+ }
+ul#menu-main > li.dropdown > a {
+	font-size: 16px;
+ }
+
+.dropdown-menu li  a {
+  color: #ddd;
+  font-size: 12px;
+  padding:10px 15px 10px 15px;
+  margin:0;
+  text-shadow:none;
+  border-bottom:1px solid #333;
+  text-transform: uppercase;
+  font-weight:600;
+}
+
+.dropdown-menu li  a:hover {
+	text-shadow:none;
+	color: #e06d5e;  
+	background: #505050;
+}
+.dropdown-header {
+	text-shadow:none;
+	color: yellow;  
+	background: #222;
+    padding:10px 15px 10px 15px !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight:600;
+	
+}
+ 
+p.copyright {
+	color:#BBB ;
+	font-size: 12px;
+} 
+
+#filters ul li a h5 {
+	font-size: 15px;
+    font-weight:300;
+	padding: 5px 10px 5px;
+	border: 1px solid #BBB;
+}
+
+.carousel {
+    margin-bottom: 0px;
+    margin-top: -60px;
+ }
+ 
+ .carousel-caption {
+	text-align:center;
+	margin-top: -60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.1)
+    color:white;
+ 	font-size:24px;
+	font-weight:600;
+	font-family: "Open Sans",Arial;
+}
+
+
+
+.subHeader {
+  font-weight:700;
+  font-size: 28px;
+  font-family:"Titillium Web","Open Sans",Arial;
+  color: #999999;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.subHeader-small {
+  font-weight:600;
+  font-size: 18px;
+  font-family:"Titillium Web","Open Sans",Arial;
+  color: #999999;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+ 
+section.spacer {
+	padding:10px 0 10px;
+	color:#fcfcfc;
+}
+ section.section {
+	padding: 80px 0 10px;
+}
+
+blockquote.medium {
+	font-size:24px;
+	font-weight:300;
+	line-height:1.4em;
+	margin: 20px 0 0px;
+} 
+
+footer {
+	background: #2b2b2b;
+	text-align: center;
+	color: #5e5e5e;
+	padding: 40px 0 10px;
+}
+th, td {
+      height: 32px;
+	  padding-left:5px;
+ }
