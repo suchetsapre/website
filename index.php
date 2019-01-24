@@ -1,3 +1,7 @@
+<?php
+	$page_title = "TJ REBERB - Home";
+?>
+
 <!DOCTYPE html>
 <!--
   Material Design Lite
@@ -17,23 +21,7 @@
 -->
 <html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="A website explaining the TJ Reverb project - the second cubesat designed and built by students at TJHSST">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-	<title>TJ REVERB</title>
-
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="assets/css/simpletextrotator.css" type="text/css" />
-	<link rel="icon" href="assets/img/reverb/tjlogo.ico" type="image/x-icon" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/getData.js"></script>
-</head>
+<?php require("inc/head.php"); ?>
 
 <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700" onload="beepboop();">
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -962,13 +950,8 @@
 		</main>
 	</div>
 
-	<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.simple-text-rotator.js"></script>
-	<script type="text/javascript" src="script.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.scrollTop.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.easterEgg.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.dropdown.js"></script>
-	<script type="text/javascript" src="assets/js/slideShow.js"></script>
+	<?php require("inc/imports-js.php"); ?>
+	
 </body>
 
 </html>

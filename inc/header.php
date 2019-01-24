@@ -1,4 +1,4 @@
-<header class="mdl-layout__header mdl-layout__header--waterfall mdl-layout__header--waterfall-hide-top">
+<header>
     <div class="mdl-layout__header-row">
         <!-- Title -->
         <span class="mdl-layout-title">
@@ -14,17 +14,30 @@
                     B<span style="font-size:60%">ROADCASTS</i>
                 </span>
         </span>
-
-
     </div>
-    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-        <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-        <a href="#mission_objectives" class="mdl-layout__tab">Mission Objectives</a>
-        <a href="#sub" class="mdl-layout__tab">Subsystems</a>
-        <!--<a href="#research" class="mdl-layout__tab">Research</a>-->
-        <a href="#aboutus" class="mdl-layout__tab">About Us</a>
-        <!--<a href="#ba" class="mdl-layout__tab">Balloon</a>-->
-        <a href="#update-tab" class="mdl-layout__tab">Updates</a>
-
-    </div>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-auto">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Overview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Mission Objectives</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Subsystems</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Updates</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
 </header>
