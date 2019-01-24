@@ -33,46 +33,12 @@
 	<link rel="icon" href="assets/img/reverb/tjlogo.ico" type="image/x-icon" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/getData.js"></script>
-
-
 </head>
 
 <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700" onload="beepboop();">
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-		<header class="mdl-layout__header mdl-layout__header--waterfall mdl-layout__header--waterfall-hide-top">
-			<div class="mdl-layout__header-row">
-				<!-- Title -->
-				<span class="mdl-layout-title">TJ REVERB<br><span style="font-size: 75%;"><i> R<span style="font-size:60%">ESEARCH
-								AND </span>E<span style="font-size:60%">DUCATION </span>V<span style="font-size:60%">EHICLE FOR THE </span>E<span
-							 style="font-size:60%">VALUATION OF </span>R<span style="font-size:60%">ADIO </span>B<span style="font-size:60%">ROADCASTS</i></span></span>
-
-
-			</div>
-			<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-				<a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-				<a href="#mission_objectives" class="mdl-layout__tab">Mission Objectives</a>
-				<a href="#sub" class="mdl-layout__tab">Subsystems</a>
-				<!--<a href="#research" class="mdl-layout__tab">Research</a>-->
-				<a href="#aboutus" class="mdl-layout__tab">About Us</a>
-				<!--<a href="#ba" class="mdl-layout__tab">Balloon</a>-->
-				<a href="#update-tab" class="mdl-layout__tab">Updates</a>
-
-				<!--<div class="menu">
-            <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
-              <i class="material-icons">more_vert</i>
-            </button> -->
-
-			</div>
-			<!--</div> 
-        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                for="demo-menu-lower-right">
-              <li class="mdl-menu__item">Introduction</li>
-              <li class="mdl-menu__item">Doc1</li>
-              <li class="mdl-menu__item">Doc2</li>
-              <li class="mdl-menu__item">Doc3</li>
-            </ul>-->
-		</header>
+		<?php require("inc/header.php"); ?>
 
 		<main class="mdl-layout__content">
 
@@ -991,29 +957,8 @@
 
 			</div>
 
+			<?php require("inc/footer.php"); ?>
 
-
-
-
-
-
-
-
-
-
-
-
-			<footer class="mdl-mini-footer">
-				<div class="mdl-mini-footer__left-section">
-					<div class="mdl-logo">TJ REVERB</div>
-				</div>
-				<div class="mdl-mini-footer__right-section">
-					<div class="mdl-logo"><i><span id="quote">"I would like to die on Mars; just not on impact." - Elon Musk|
-								"I think of space not as the final frontier, but as the next frontier. Not as something to be conquered, but to
-								be explored." - Neil deGrasse Tyson|
-								"The dream of yesterday is the hope of today and the reality of tomorrow." - Robert Goddard</span></i></div>
-				</div>
-			</footer>
 		</main>
 	</div>
 
