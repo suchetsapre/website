@@ -57,6 +57,18 @@ body {
       padding: 3px 20px;
 }
 
+/* About Us */
+.about-profile {
+    padding-bottom: 30px;
+}
+.about-profile img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
 /* Footer */
 .footer-quote {
     display: none;
