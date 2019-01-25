@@ -13,20 +13,20 @@ body {
 
 
 /* Index */
-#index-hero, #index-hero > div {
+#index-hero > div {
     background-image: url("assets/img/banner/home-banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 85vh;
 }
 
-#index-hero > div > div {
-    max-width: 50vh;
-}
 #index-hero img {
+    display: block;
+    max-height: 50vh;
     max-width: 100%;
+    width: auto;
+    height: auto;
 }
-
 
 /* Objectives */
 .banner > div {

@@ -26,7 +26,7 @@
 	<?php require("inc/header.php"); ?>
 
 	<section class="updates-container container py-4">
-        <div class="row">
+        <div data-aos="fade" data-aos-delay="1000" class="row">
             <div class="col-md-6 py-2">
                 <h1>Facebook</h1>
                 <div class="fb-page mx-auto" 
@@ -40,7 +40,7 @@
                     data-height="70vh">
                     <blockquote cite="https://www.facebook.com/TJCubeSat/" class="fb-xfbml-parse-ignore">
                         <a href="https://www.facebook.com/TJCubeSat/">
-                            Posts by TJREVERB
+                            Posts by TJ REVERB
                         </a>
                     </blockquote>
                 </div>
@@ -50,7 +50,7 @@
                 <a class="twitter-timeline" 
                     href="https://twitter.com/TJ_REVERB?ref_src=twsrc%5Etfw"
                     data-height="70vh">
-                    Tweets by TJREVERB
+                    Tweets by TJ REVERB
                 </a> 
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>

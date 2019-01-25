@@ -52,7 +52,7 @@
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
 					<div class="row">
-						<h2 class="mx-auto my-auto">"You really get an insider's look into the industry"</h2>
+						<h2 data-aos="fade-right" class="mx-auto my-auto">"You really get an insider's look into the industry"</h2>
 					</div>
 				</div>
 			</div>
@@ -133,7 +133,7 @@
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
 					<div class="row">
-						<h2 class="mx-auto my-auto">"We're doing what a superpower, the Soviet Union, first accomplished"</h2>
+						<h2 data-aos="fade-right" class="mx-auto my-auto">"We're doing what a superpower, the Soviet Union, first accomplished"</h2>
 					</div>
 				</div>
 			</div>

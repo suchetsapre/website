@@ -71,7 +71,7 @@ $page_title = "TJ REVERB - Objectives";
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
 					<div class="row">
-						<h2 class="mx-auto my-auto">"Even just 20 years ago, this was unimaginable"</h2>
+						<h2 data-aos="fade-right" class="mx-auto my-auto">"Even just 20 years ago, this was unimaginable"</h2>
 					</div>
 				</div>
 			</div>

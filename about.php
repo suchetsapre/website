@@ -68,7 +68,7 @@
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
 					<div class="row">
-						<h2 class="mx-auto my-auto">"It is remarkable that we have the opportunity to do this"</h2>
+						<h2 data-aos="fade-right" class="mx-auto my-auto">"It is remarkable that we have the opportunity to do this"</h2>
 					</div>
 				</div>
 			</div>
@@ -126,7 +126,7 @@
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
 					<div class="row">
-						<h2 class="mx-auto my-auto">"This project has opened up innumerable possibilities for my future"</h2>
+						<h2 data-aos="fade-right" class="mx-auto my-auto">"This project has opened up innumerable possibilities for my future"</h2>
 					</div>
 				</div>
 			</div>

@@ -18,15 +18,15 @@
 		<div class="jumbotron">
 			<div class="container my-auto">
 				<div class="row">
-					<img id="index-hero-img" class="mx-auto img-fluid" src="assets/img/brand/logo.png" alt="TJ REVERB Mission Patch">
+					<img data-aos="fade" id="index-hero-img" class="mx-auto " src="assets/img/brand/logo.png" alt="TJ REVERB Mission Patch">
 				</div>
 
-				<div class="container-fluid text-center py-4 text-light">
+				<div data-aos="zoom-out" class="container-fluid text-center mx-auto py-4 text-light">
 					<div class="row">
 						<h2 class="mx-auto">TJ REVERB</h2>
 					</div>
 					<div class="row text-uppercase">
-						<p>
+						<p class="mx-auto">
 								<span class="lead" style="font-size: 1.5em;">R</span>esearch and 
 								<span class="lead" style="font-size: 1.5em;">E</span>ducation 
 								<span class="lead" style="font-size: 1.5em;">V</span>ehicle for the 

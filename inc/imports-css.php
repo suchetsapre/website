@@ -13,3 +13,6 @@
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Gothic+A1:300,400,700" rel="stylesheet">
+
+<!-- Animate on Scroll - CSS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

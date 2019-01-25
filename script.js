@@ -13,3 +13,8 @@ function showQuotes() {
     showNextQuote();
 }
 showQuotes();
+
+
+AOS.init({
+    once: true
+});

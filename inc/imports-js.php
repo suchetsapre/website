@@ -11,4 +11,7 @@
     integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
     crossorigin="anonymous"></script>
 
+<!-- Animate on Scroll - JS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script type='text/javascript' src="script.js"></script>
