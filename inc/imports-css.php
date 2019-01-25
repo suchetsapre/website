@@ -13,9 +13,7 @@
 
 <!-- Bootstrap 4, Pulse Theme - CSS -->
 <link rel="stylesheet" 
-    href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/pulse/bootstrap.min.css" 
-    integrity="sha384-daEGF+rqKeUQDdLJe7DqgBSAE++P93VSeY44F6/iQZ9Z9Fdw/L45uzkqPu5QFHOm" 
-    crossorigin="anonymous">
+    href="assets/css/bootstrap.css">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Gothic+A1:300,400,700" rel="stylesheet">

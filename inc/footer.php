@@ -1,8 +1,8 @@
 <footer>
-    <section class="container-fluid bg-secondary text-white py-4">
+    <section class="container-fluid bg-light text-dark py-4">
         <div class="row">
             <div class="col-md-6">
-                <h5 class="text-center">Want to support TJ REVERB?</h5>
+                <h5 class="text-center font-weight-bold">Want to support TJ REVERB?</h5>
                 Please donate to our GoFundMe at <a href="https://www.gofundme.com/tjreverb">https://www.gofundme.com/tjreverb</a>.
                 <br>
                 In addition, you can donate to the TJ Partnership Fund to support TJ's many important programs at <a
@@ -12,15 +12,18 @@
             </div>
 
             <div class="col-md-6">
-                <h5 class="text-center">Contact Us</h5>
+                <h5 class="text-center font-weight-bold">Contact Us</h5>
                 <div class="row">
                     <div class="col-sm-6">
-                        Michael Piccione, Principal Investigator <br>
-                        mspiccione@fcps.edu <br> <br>
+                        Michael Piccione, Principal Investigator
+                        <br>
+                        mspiccione@fcps.edu
                     </div>
                     <div class="col-sm-6">
-                        Samantha (Sam) Courtney, TJ Partnership Development Manager <br>
-                        703.750.8317 <br>
+                        Samantha (Sam) Courtney, TJ Partnership Development Manager
+                        <br>
+                        703.750.8317
+                        <br>
                         scourtney@fcps.edu
                     </div>
                 </div>
