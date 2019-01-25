@@ -1,5 +1,5 @@
 <?php
-	$page_title = "TJ REBERB - Home";
+	$page_title = "TJ REVERB - Home";
 ?>
 
 <!DOCTYPE html>
