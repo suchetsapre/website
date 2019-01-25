@@ -9,13 +9,16 @@
                 <a class="nav-link" href="/">Overview</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/mission-objectives.php">Mission Objectives</a>
+                <a class="nav-link" href="/objectives.php">Objectives</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/subsystems.php">Subsystems</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/media.php">Media</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Updates</a>

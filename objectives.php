@@ -1,5 +1,5 @@
 <?php
-$page_title = "TJ REVERB - Mission Objectives";
+$page_title = "TJ REVERB - Objectives";
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +13,7 @@ $page_title = "TJ REVERB - Mission Objectives";
 
     <?php require("inc/header.php"); ?>
 
-    <section class="mo-container container py-4">
+    <section class="objectives-container container py-4">
         <div class="row">
             <div class="col-md-12">
                 <h1>Mission Objectives</h1>
@@ -66,37 +66,7 @@ $page_title = "TJ REVERB - Mission Objectives";
         </div>
     </section>
 
-    <section class="mo-container container py-4">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Media</h1>
-            </div>
-        </div>
-        <div class="row py-2">
-            <div class="col-md-4">
-                <img class="mo-image img-fluid img-thumbnail" src="assets/img/DesignProcess/Design.PNG">
-                <p class="mo-img-caption text-light">Design</p>
-            </div>
-            <div class="col-md-4">
-                <img class="mo-image img-fluid img-thumbnail" src="assets/img/DesignProcess/FeasibilityPres.jpg">
-                <p class="mo-img-caption text-light">Feasibility Presentation</p>
-            </div>
-            <div class="col-md-4">
-                <img class="mo-image img-fluid img-thumbnail" src="assets/img/balloon/BalloonLaunchNew.png">
-                <p class="mo-img-caption text-light">Balloon Test Launch</p>
-            </div>
-        </div>
-        <div class="row py-2">
-            <div class="col-md-12">
-                <video width="100%" autoplay loop>
-                    <source src="assets/img/SubSystemImgs/CAD/GCADVid.mp4" type="video/mp4">
-                </video>
-                <p style="margin-left: -5px;" class="mo-img-caption text-light">Design Video</p>
-            </div>
-        </div>
-    </section>
-
-	<div id="mo-banner">
+	<div class="objectives-banner">
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
@@ -108,7 +78,20 @@ $page_title = "TJ REVERB - Mission Objectives";
 		</div>
 	</div>	
 
-    <section class="mo-container container py-4">
+    <section class="objectives-container container py-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Subsystem Objectives</h1>
+                <p>
+                    TJ students who are directly involved with the design and implementation of the satellite will learn how to
+                    function in smaller groups with specific tasks known as subsystems. Together these teams will cooperate inside
+                    and outside the classroom setting for TJ REVERB.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="objectives-container container py-4">
         <div class="row">
             <div class="col-md-12">
                 <h1>Education Objectives</h1>

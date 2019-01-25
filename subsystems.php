@@ -12,19 +12,6 @@
 <div class="site-wrapper">
 
 	<?php require("inc/header.php"); ?>
-	
-    <section class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Subsystem Objectives</h1>
-                <p>
-                    TJ students who are directly involved with the design and implementation of the satellite will learn how to
-                    function in smaller groups with specific tasks known as subsystems. Together these teams will cooperate inside
-                    and outside the classroom setting for TJ REVERB.
-                </p>
-            </div>
-        </div>
-    </section>
 
     <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
         <div class="mdl-card mdl-cell mdl-cell--12-col">
