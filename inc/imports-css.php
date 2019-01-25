@@ -3,7 +3,7 @@
 
 <!-- <link rel="stylesheet" href="styles.css"> -->
 <link rel="stylesheet" href="style.css">
-<link rel="icon" href="assets/img/reverb/tjlogo.ico" type="image/x-icon" />
+<link rel="icon" href="assets/img/brand/favicon.ico" type="image/x-icon" />
 
 <!-- Bootstrap 4 - CSS-->
 <link rel="stylesheet" 

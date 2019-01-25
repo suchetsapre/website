@@ -21,22 +21,22 @@
         </div>
         <div class="row py-2">
             <div class="col-md-4">
-                <img class="media-image img-fluid img-thumbnail" src="assets/img/DesignProcess/Design.PNG">
+                <img class="media-image img-fluid img-thumbnail" src="assets/img/media/design.png">
                 <p class="media-img-caption text-light">Design</p>
             </div>
             <div class="col-md-4">
-                <img class="media-image img-fluid img-thumbnail" src="assets/img/DesignProcess/FeasibilityPres.jpg">
+                <img class="media-image img-fluid img-thumbnail" src="assets/img/media/feasibility-presentation.jpg">
                 <p class="media-img-caption text-light">Feasibility Presentation</p>
             </div>
             <div class="col-md-4">
-                <img class="media-image img-fluid img-thumbnail" src="assets/img/balloon/BalloonLaunchNew.png">
+                <img class="media-image img-fluid img-thumbnail" src="assets/img/media/balloon-launch2.png">
                 <p class="media-img-caption text-light">Balloon Test Launch</p>
             </div>
         </div>
         <div class="row py-2">
             <div class="col-md-12">
                 <video width="100%" autoplay loop>
-                    <source src="assets/img/SubSystemImgs/CAD/GCADVid.mp4" type="video/mp4">
+                    <source src="assets/img/subsystems/cad/gcad.mp4" type="video/mp4">
                 </video>
                 <p style="margin-left: -5px;" class="media-img-caption text-light">Design Video</p>
             </div>

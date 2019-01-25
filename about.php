@@ -37,7 +37,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <h2><a href="http://www.emergentspace.com/" target="_blank">Emergent</a></h2>
+                <h2><a href="http://www.emergentspace.com/" target="-blank">Emergent</a></h2>
                 <p>
                     Emergent Space Technologies has provided mentors and guidance to TJ’s CubeSat team. They trained two TJ
                     students in a 5-week flight dynamics internship. Under the guidance of an experienced flight dynamics engineer,
@@ -52,7 +52,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <h2><a href="http://www.ragnarokindustries.com/working/" target="_blank">Ragnarok</a></h2>
+                <h2><a href="http://www.ragnarokindustries.com/working/" target="-blank">Ragnarok</a></h2>
                 <p>
                     Ragnarok Industries brings a wealth of Cubesat building knowledge to the TJREVERB team. Primarily, Ragnarok
                     aids TJREVERB by providing avionics, comprised of the flight computer and its interfaces with the various
@@ -64,7 +64,7 @@
     </section>
 
     <div class="banner">
-		<div class="jumbotron jumbotron-fluid" style="background-image: url('assets/img/reverb/bann2.jpg');">
+		<div class="jumbotron jumbotron-fluid" style="background-image: url('assets/img/banner/banner-2.jpg');">
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
 					<div class="row">
@@ -122,7 +122,7 @@
     </section>
 
     <div class="banner">
-		<div class="jumbotron jumbotron-fluid" style="background-image: url('assets/img/reverb/bann4.jpg');">
+		<div class="jumbotron jumbotron-fluid" style="background-image: url('assets/img/banner/banner-4.jpg');">
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
 					<div class="row">
@@ -141,91 +141,91 @@
         </div>
         <div class="about-profiles row py-3 text-center">
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Mike_Piccione.jpg" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/mike-piccione.jpg" class="img-fluid"></div>
                 <h4>Mike Piccione</h4>
                 <p>TJ REVERB's Principal Investigator and Energy Systems and Engineering Labs Director</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Shihao_Cao.jpg" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/shihao-cao.jpg" class="img-fluid"></div>
                 <h4>Shihao Cao</h4>
                 <p>Project Manager - TJ '19</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/" class="img-fluid"></div>
                 <h4>Aumena Choudhry</h4>
                 <p>Administrative - TJ '20</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/" class="img-fluid"></div>
                 <h4>Lucas Bronstein</h4>
                 <p>Electronics - TJ '20</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Madeleine_Beauvais.jpg" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/madeleine-beauvais.jpg" class="img-fluid"></div>
                 <h4>Madeleine Beauvais</h4>
                 <p>Testing - TJ '19</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div id="miss" class="about-profile-img"><img src="assets/img/reverb/Suchet_Sapre.JPG" class="img-fluid"></div>
+                <div id="miss" class="about-profile-img"><img src="assets/img/about/suchet-sapre.jpg" class="img-fluid"></div>
                 <h4>Suchet Sapre</h4>
                 <p>Website - TJ '20</p>
             </div>
             
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Jude_Bedessem.png" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/jude-bedessem.png" class="img-fluid"></div>
                 <h4>Jude Bedessem</h4>
                 <p>Communciations (Co-Leader) - TJ '19</p>
             </div>
     
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Maguire_Papay.PNG" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/maguire-papay.png" class="img-fluid"></div>
                 <h4>Maguire Papay</h4>
                 <p>Communciations (Co-Leader) - TJ '19</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Shihao_Cao.jpg" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/shihao-cao.jpg" class="img-fluid"></div>
                 <h4>Shihao Cao</h4>
                 <p>Communciations (Co-Leader) - TJ '19</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Dylan_Jones.png" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/dylan-jones.png" class="img-fluid"></div>
                 <h4>Dylan Jones</h4>
                 <p>Software - TJ '19</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Afreen_Mohideen.jpg" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/afreen-mohideen.jpg" class="img-fluid"></div>
                 <h4>Afreen Mohideen</h4>
                 <p>Outreach (Co-Leader) - TJ '19</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Amita_Goyal.PNG" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/amita-goyal.png" class="img-fluid"></div>
                 <h4>Amita Goyal</h4>
                 <p>Outreach (Co-Leader) - TJ '20</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/" class="img-fluid"></div>
                 <h4>Quentin Bishop</h4>
                 <p>ADCS - TJ '19</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Arnold_Zhang.png" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/arnold-zhang.png" class="img-fluid"></div>
                 <h4>Arnold Zhang</h4>
                 <p>CAD (Co-Leader) - TJ '19</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/reverb/Sophia_Trissell.png" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/about/sophia-trissell.png" class="img-fluid"></div>
                 <h4>Sophia Trissell</h4>
                 <p>CAD (Co-Leader) - TJ '19</p>
             </div>

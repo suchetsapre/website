@@ -25,7 +25,7 @@
                 </p>
             </div>
             <div class="col-md-6 py-3 px-4">
-                <img class="img-fluid" src="assets/img/SubSystemImgs/OrbitComm/FlightPrediction.png">
+                <img class="img-fluid" src="assets/img/subsystems/communications/flight-prediction.png">
             </div>
         </div>
     </section>
@@ -41,14 +41,14 @@
                 </p>
             </div>
             <div class="col-md-6 py-3 px-4">
-                <img class="img-fluid" src="assets/img/SubSystemImgs/ADCS/BalloonPath.PNG">
+                <img class="img-fluid" src="assets/img/subsystems/adcs/balloon-path.png">
                 <figcaption> <i>Path of the balloon during balloon test launch.</i></figcaption>
             </div>
         </div>
     </section>
 
 	<div class="banner">
-		<div class="jumbotron jumbotron-fluid" style="background-image: url('assets/img/reverb/bann1.jpg');">
+		<div class="jumbotron jumbotron-fluid" style="background-image: url('assets/img/banner/banner-1.jpg');">
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
 					<div class="row">
@@ -71,7 +71,7 @@
                 </p>
             </div>
             <div class="col-md-6 py-3 px-4">
-                <img class="img-fluid" src="assets/img/SubSystemImgs/Electronics/OrbitElectric.jpg">
+                <img class="img-fluid" src="assets/img/subsystems/software/orbit-electric.jpg">
             </div>
         </div>
     </section>
@@ -90,7 +90,7 @@
                 </p>
             </div>
             <div class="col-md-6 py-3 px-4">
-                <img class="img-fluid" src="assets/img/SubSystemImgs/Electronics/Electronics1.PNG">
+                <img class="img-fluid" src="assets/img/subsystems/electronics/electronics1.png">
             </div>
         </div>
     </section>
@@ -118,10 +118,10 @@
             <div class="col-md-6 py-3 px-4">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="img-fluid" src="assets/img/SubSystemImgs/CAD/3DPrint.JPG">
+                        <img class="img-fluid" src="assets/img/subsystems/cad/3d-print.jpg">
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid" src="assets/img/SubSystemImgs/CAD/3DPrint2.JPG">
+                        <img class="img-fluid" src="assets/img/subsystems/CAD/3d-print2.jpg">
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@
     </section>
 
 	<div class="banner">
-		<div class="jumbotron jumbotron-fluid" style="background-image: url('assets/img/reverb/bann3.jpg');">
+		<div class="jumbotron jumbotron-fluid" style="background-image: url('assets/img/banner/banner-3.jpg');">
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
 					<div class="row">
@@ -165,7 +165,7 @@
                 </ul>
             </div>
             <div class="col-md-6 py-3 px-4">
-                <img class="img-fluid" src="assets/img/SubSystemImgs/Outreach/Presentation.JPG">
+                <img class="img-fluid" src="assets/img/subsystems/outreach/presentation.jpg">
             </div>
         </div>
     </section>
@@ -189,10 +189,10 @@
             <div class="col-md-6 py-3 px-4">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="img-fluid" src="assets/img/SubSystemImgs/Testing/Testing1.PNG">
+                        <img class="img-fluid" src="assets/img/subsystems/testing/testing1.png">
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid" src="assets/img/SubSystemImgs/Testing/Testing2.JPG">
+                        <img class="img-fluid" src="assets/img/subsystems/testing/testing2.jpg">
                     </div>
                 </div>
             </div>
@@ -219,7 +219,7 @@
                 </ul>
             </div>
             <div class="col-md-6 py-3 px-4">
-                <img class="img-fluid" src="assets/img/SubSystemImgs/Testing/deeplearning.jpeg">
+                <img class="img-fluid" src="assets/img/subsystems/research/deeplearning.jpg">
             </div>
         </div>
     </section>

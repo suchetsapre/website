@@ -18,7 +18,7 @@
 		<div class="jumbotron">
 			<div class="container my-auto">
 				<div class="row">
-					<img id="index-hero-img" class="mx-auto img-fluid" src="assets/img/reverb/CubeSat_Logo.png" alt="TJ REVERB Mission Patch">
+					<img id="index-hero-img" class="mx-auto img-fluid" src="assets/img/brand/logo.png" alt="TJ REVERB Mission Patch">
 				</div>
 
 				<div class="container-fluid text-center py-4 text-light">

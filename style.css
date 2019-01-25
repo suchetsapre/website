@@ -14,7 +14,7 @@ body {
 
 /* Index */
 #index-hero, #index-hero > div {
-    background-image: url("assets/img/earth-space.JPG");
+    background-image: url("assets/img/banner/home-banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 85vh;
