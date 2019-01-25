@@ -31,7 +31,7 @@
         </div>
     </section>
 
-    <section class="container-fluid bg-dark text-white py-3 px-5">
+    <section class="container-fluid bg-dark text-white py-4 px-5">
         <div class="row text-center">
             <p class="footer-quote mx-auto">
                 "I would like to die on Mars; just not on impact." 
@@ -51,13 +51,19 @@
                 <em>- Robert Goddard</em>
             </p>
         </div>
+        <hr class="py-1" style="border-top: 1px solid rgba(255, 255, 255, 0.1);">
         <div class="row">
             <h2 class="mx-auto">TJ REVERB</h2>
         </div>
         <div class="row">
             <p class="font-weight-light mx-auto">
-                Copyright TJHSST 2016-2019. All rights reserved.
+                Copyright &copy; TJHSST 2016-2019. All rights reserved.
             </p>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12">
+                <p class="mx-auto text-muted">Website design by Akash Bhave</p>
+            </div>
         </div>
     </section>
 </footer>
