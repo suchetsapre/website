@@ -8,7 +8,7 @@ html {
 }
 body {
     display: table;
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'Gothic A1' !important;
 }
 
 /* Index */
@@ -24,6 +24,32 @@ body {
 }
 #index-hero img {
     max-width: 100%;
+}
+
+/* Mission Objectives */
+#mo-banner > div {
+    background-image: url("assets/img/reverb/bann5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mo-banner > div .row {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 80px;
+}
+
+.mo-container img.img-fluid {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.mo-img-caption {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 3px 20px;
 }
 
 /* Footer */

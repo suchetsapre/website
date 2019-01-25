@@ -18,4 +18,4 @@
     crossorigin="anonymous">
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gothic+A1:300,400,700" rel="stylesheet">

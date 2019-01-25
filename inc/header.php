@@ -5,11 +5,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Overview</a>
+            <li class="nav-item">
+                <a class="nav-link" href="/">Overview</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Mission Objectives</a>
+                <a class="nav-link" href="/mission-objectives.php">Mission Objectives</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Subsystems</a>
