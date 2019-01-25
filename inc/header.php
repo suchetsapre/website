@@ -21,7 +21,7 @@
                 <a class="nav-link" href="/media.php">Media</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Updates</a>
+                <a class="nav-link" href="/updates.php">Updates</a>
             </li>
             </ul>
         </div>
