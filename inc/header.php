@@ -1,10 +1,10 @@
 <header>
-    <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title">
-            TJ REVERB
-            <br>
-            <span style="font-size: 75%;">
+    <div class="container-fluid px-5">
+        <div class="row">
+            <h1>TJ REVERB</h1>
+        </div>
+        <div class="row">
+            <p style="font-size: 75%;">
                 <i> 
                     R<span style="font-size:60%">ESEARCH AND </span>
                     E<span style="font-size:60%">DUCATION </span>
@@ -12,8 +12,8 @@
                     E<span style="font-size:60%">VALUATION OF </span>
                     R<span style="font-size:60%">ADIO </span>
                     B<span style="font-size:60%">ROADCASTS</i>
-                </span>
-        </span>
+            </p>
+        </div>
     </div>
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-auto">

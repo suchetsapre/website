@@ -104,19 +104,6 @@ div {
     border-bottom-color: #555;
 }
 
-a:visited:not(.mdl-layout__tab) {
-    color: #448bc6;
-}
-
-a:hover:not(.mdl-layout__tab) {
-    color: #44b1c6;
-}
-
-a:not(.mdl-layout__tab) {
-    color: #50d5ee;
-    text-decoration: none;
-}
-
 .mdl-demo .mdl-layout__header-row {
     padding-left: 40px;
 }

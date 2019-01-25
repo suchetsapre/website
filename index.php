@@ -23,10 +23,10 @@
 
 <?php require("inc/head.php"); ?>
 
+<?php require("inc/header.php"); ?>
+
 <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700" onload="beepboop();">
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
-		<?php require("inc/header.php"); ?>
 
 		<main class="mdl-layout__content">
 
