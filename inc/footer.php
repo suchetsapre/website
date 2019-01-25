@@ -1,7 +1,7 @@
 <footer>
     <section class="container-fluid bg-light text-dark py-4">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 py-4">
                 <h5 class="text-center font-weight-bold">Want to support TJ REVERB?</h5>
                 Please donate to our GoFundMe at <a href="https://www.gofundme.com/tjreverb">https://www.gofundme.com/tjreverb</a>.
                 <br>
@@ -11,15 +11,15 @@
                 contributions to TJ REVERB, please contact us directly.
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 py-4">
                 <h5 class="text-center font-weight-bold">Contact Us</h5>
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 py-2">
                         Michael Piccione, Principal Investigator
                         <br>
                         mspiccione@fcps.edu
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 py-2">
                         Samantha (Sam) Courtney, TJ Partnership Development Manager
                         <br>
                         703.750.8317
