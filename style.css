@@ -26,16 +26,20 @@ body {
     max-width: 100%;
 }
 
-/* Mission Objectives */
-.objectives-banner > div {
-    background-image: url("assets/img/reverb/bann5.jpg");
+/* Objectives */
+.banner > div {
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.objectives-banner > div .row {
+.banner > div .row {
     background-color: rgba(0, 0, 0, 0.7);
     height: 80px;
+}
+
+/* Subsystems */
+.subsystems-container img {
+    max-height: 300px;
 }
 
 /* Media */

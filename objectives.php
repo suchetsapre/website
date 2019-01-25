@@ -66,8 +66,8 @@ $page_title = "TJ REVERB - Objectives";
         </div>
     </section>
 
-	<div class="objectives-banner">
-		<div class="jumbotron jumbotron-fluid">
+	<div class="banner">
+		<div class="jumbotron jumbotron-fluid" style="background-image: url('assets/img/reverb/bann5.jpg');">
 			<div class="container-fluid my-auto px-0">
 				<div class="container-fluid text-center px-0 py-4 text-light">
 					<div class="row">
