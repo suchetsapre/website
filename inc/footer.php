@@ -1,5 +1,6 @@
 <footer>
     <section class="container-fluid bg-light text-dark py-4">
+        <div class="container">
         <div class="row">
             <div class="col-md-6 py-4">
                 <h5 class="text-center font-weight-bold">Want to support TJ REVERB?</h5>
@@ -28,6 +29,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 

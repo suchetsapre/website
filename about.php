@@ -143,7 +143,7 @@
             <div class="about-profile col-md-4">
                 <div class="about-profile-img"><img src="assets/img/about/mike-piccione.jpg" class="img-fluid"></div>
                 <h4>Mike Piccione</h4>
-                <p>TJ REVERB's Principal Investigator and Energy Systems and Engineering Labs Director</p>
+                <p>Principal Investigator</p>
             </div>
 
             <div class="about-profile col-md-4">
@@ -153,13 +153,13 @@
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/about/" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/brand/logo.png" class="img-fluid"></div>
                 <h4>Aumena Choudhry</h4>
                 <p>Administrative - TJ '20</p>
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/about/" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/brand/logo.png" class="img-fluid"></div>
                 <h4>Lucas Bronstein</h4>
                 <p>Electronics - TJ '20</p>
             </div>
@@ -213,7 +213,7 @@
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/about/" class="img-fluid"></div>
+                <div class="about-profile-img"><img src="assets/img/brand/logo.png" class="img-fluid"></div>
                 <h4>Quentin Bishop</h4>
                 <p>ADCS - TJ '19</p>
             </div>
