@@ -1,4 +1,4 @@
-/* General */
+/* GENERAL */
 html,body {
     height:100%;
     width: 100%;
@@ -10,6 +10,7 @@ body {
     display: table;
     font-family: 'Gothic A1' !important;
 }
+
 
 /* Index */
 #index-hero, #index-hero > div {
@@ -26,6 +27,7 @@ body {
     max-width: 100%;
 }
 
+
 /* Objectives */
 .banner > div {
     background-size: cover;
@@ -37,10 +39,12 @@ body {
     height: 80px;
 }
 
+
 /* Subsystems */
 .subsystems-container img {
     max-height: 300px;
 }
+
 
 /* Media */
 .media-container img.img-fluid {
@@ -57,6 +61,7 @@ body {
       padding: 3px 20px;
 }
 
+
 /* About Us */
 .about-profile {
     padding-bottom: 30px;
@@ -69,7 +74,6 @@ body {
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
-/* Updates */
 
 /* Footer */
 .footer-quote {
