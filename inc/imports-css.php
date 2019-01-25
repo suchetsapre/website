@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
+<!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css"> -->
 
-<link rel="stylesheet" href="styles.css">
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<link rel="stylesheet" href="style.css">
 <link rel="icon" href="assets/img/reverb/tjlogo.ico" type="image/x-icon" />
 
 <!-- Bootstrap 4 - CSS-->

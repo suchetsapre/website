@@ -1,14 +1,15 @@
-/* global $ */
-/*
-$(document).ready(function() {
-    $(window).scroll(function() {
-        if ($(document).height() - $(window).height() < $(document).scrollTop() - 200) {
-            $('#quote').fadeIn('fast');
-        }
-    });
-});*/
-$("#quote").textrotator({
-    animation: "dissolve", //dissolve, fade, flip, flipUp, flipCube, flipCubeUp, spin.
-    separator: "|",
-    speed: 5000
-});
+function showQuotes() {
+    var quotes = $(".footer-quote");
+        var quoteIndex = -1;
+
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(2000)
+            .delay(2000)
+            .fadeOut(2000, showNextQuote);
+    }
+
+    showNextQuote();
+}
+showQuotes();

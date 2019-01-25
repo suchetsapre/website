@@ -14,20 +14,6 @@
  * limitations under the License.
  */
 
-html,
-body {
-    font-family: "Roboto", "Helvetica", sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url("assets/img/reverb/ISS007-E-10807.JPG");
-    background-size: cover;
-}
-
-div {
-    margin: 0;
-    padding: 0;
-}
-
 .fb-box {
     overflow: hidden;
 }

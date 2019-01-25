@@ -1,0 +1,32 @@
+/* General */
+html,body {
+    height:100%;
+    width: 100%;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    display: table;
+    font-family: 'IBM Plex Sans' !important;
+}
+
+/* Index */
+#index-hero, #index-hero > div {
+    background-image: url("assets/img/earth-space.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+#index-hero > div > div {
+    max-width: 50vh;
+}
+#index-hero img {
+    max-width: 100%;
+}
+
+/* Footer */
+.footer-quote {
+    display: none;
+}
