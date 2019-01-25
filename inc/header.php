@@ -12,7 +12,7 @@
                 <a class="nav-link" href="/mission-objectives.php">Mission Objectives</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Subsystems</a>
+                <a class="nav-link" href="/subsystems.php">Subsystems</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
