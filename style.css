@@ -28,6 +28,12 @@ body {
     height: auto;
 }
 
+#index-hero-text p, #index-hero-text h2 {
+    padding: 3px 5px;
+    background-color: rgba(1, 5, 68, 0.7);
+    border-radius: 1px;
+}
+
 /* Objectives */
 .banner > div {
     background-size: cover;

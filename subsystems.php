@@ -199,31 +199,6 @@
         </div>
     </section>
 
-    <section class="subsystems-container container py-4">
-        <div class="row">
-            <div class="col-md-6">
-                <h1>Research</h1>
-                <p>
-                At TJ REVERB, we are working on various methods of pushing the frontiers of technology by discovering 
-                meaningful results from the data collected by the TJ REVERB Cubsat. 
-                To that end, we are currently working on developing a deep learning data analytic algorithm 
-                that retrieves data from the cubesat in realtime and works on analysis for future prediction. 
-                We also hope to expand this research section to include other models, ranging from Support Vector Machines to Generative Adversarial Networks.
-                </p>
-                <h2>Tasks</h2>
-                <ul>
-                    <li>Utilize Firebase for data storage and update the research page with real time information and the data analytics from our Machine Learning server. </li>
-                    <li>Employ the NASA CubeSat API to retrieve data from the Cubesat and store it in the database </li>
-                    <li>Train several Machine Learning algorithms in real time to predict data and chart obstacles</li>
-                    <li>Validate our Deep Learning Model with realtime comparison via the programming flight board</li>
-                </ul>
-            </div>
-            <div class="col-md-6 py-3 px-4">
-                <img class="img-fluid" src="assets/img/subsystems/research/deeplearning.jpg">
-            </div>
-        </div>
-    </section>
-
 	<?php require("inc/footer.php"); ?>
 
 </div>
