@@ -30,7 +30,7 @@
             </div>
             <div class="col-md-4">
                 <img class="media-image img-fluid img-thumbnail" src="assets/img/media/balloon-launch2.png">
-                <p class="media-img-caption text-light">Balloon Test Launch</p>
+                <p class="media-img-caption text-light">Weather Balloon Testing</p>
             </div>
         </div>
         <div class="row py-2">
