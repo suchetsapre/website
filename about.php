@@ -90,6 +90,16 @@
                     <li>ExoAnalytic</li>
                     <li>NAL Research</li>
                     <li>USSTEM</li>
+		    <li>TitanOneZero</li>
+		    <li>Twiggs Space Lab</li>
+		    <li>UUGear</li>
+		    <li>Emergent Space Technologies</li>
+		    <li>Ragnarok Industries</li>
+		    <li>Orbital ATK</li>
+		    <li>US Naval Research Laboratory</li>
+		    <li>TJHSST Partnership Func</li>
+		    <li>George Mason University</li>
+		    <li>NASA</li>
                 </ul>
             </div>
             <div class="col-md-3">
