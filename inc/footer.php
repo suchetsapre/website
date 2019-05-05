@@ -4,9 +4,8 @@
         <div class="row">
             <div class="col-md-6 py-4">
                 <h5 class="text-center font-weight-bold">Want to support TJ REVERB?</h5>
-                Please donate to our GoFundMe at <a href="https://www.gofundme.com/tjreverb">https://www.gofundme.com/tjreverb</a>.
-                <br>
-                In addition, you can donate to the TJ Partnership Fund to support TJ's many important programs at <a
+                
+                You can donate to the TJ Partnership Fund to support TJ's many important programs at <a
                     href="http://tjpartnershipfund.org/" target="_blank">http://tjpartnershipfund.org/</a>. If you or
                 your organization wish to make any other
                 contributions to TJ REVERB, please contact us directly.
