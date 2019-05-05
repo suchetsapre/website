@@ -54,12 +54,13 @@ $page_title = "TJ REVERB - Objectives";
                 <h2>Important Mission Dates</h2>
                 <ul>
                     <li>2016: Create team and write proposal</li>
-                    <li>2017: Plan mission and design CubeSat </li>
-                    <li> 2018:</li>
+                    <li>2017 & 2018: Design CubeSat and build ThinSat </li>
+                    <li>2019:</li>
                     <ul>
-                        <li>Q1 & Q2: Design CubeSat </li>
-                        <li>Q3: Weather Balloon Launch/Test Hardware </li>
-                        <li>Q4: Delivery of CubeSat </li>
+                        <li>Q1: Finalize components, test, and assemble </li>
+                        <li>Q2: Test CubeSat </li>
+                        <li>Q3: Delivery of CubeSat </li>
+			<li>Q4: Launch of CubeSat </li>
                     </ul>
                 </ul>
             </div>
